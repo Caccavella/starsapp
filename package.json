@@ -13,6 +13,7 @@
     "passport-auth0": "^0.6.0",
     "react": "^16.1.0",
     "react-dom": "^16.1.0",
+    "react-router-dom": "^4.2.2",
     "react-scripts": "1.0.17"
   },
   "scripts": {
@@ -24,7 +25,11 @@
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
   "main": "server/server.js",
   "devDependencies": {},
-  "keywords": ["Contest","Star","Purchase"],
+  "keywords": [
+    "Contest",
+    "Star",
+    "Purchase"
+  ],
   "author": "CAVELL LABS",
   "license": "ISC",
   "proxy": "http://localhost:3005"

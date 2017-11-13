@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './main.css';
+import {Link} from 'react-router-dom';
 
 class Main extends Component {
     constructor() {
@@ -13,7 +14,9 @@ class Main extends Component {
     render() {
         return(
             <div className="mainwrapper">
-                <div>This is the main page. Sorry</div>
+                <div>Profile</div>
+                <div>Data</div>
+                <Link to="/stars">Stars</Link>
             </div>
         )
     }

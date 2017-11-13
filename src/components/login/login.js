@@ -18,7 +18,7 @@ class Login extends Component {
                 <div className="sitesub">Reach for the stars</div>
                 </div>
                 <div className="login">
-                    <a href={process.env.REACT_APP_LOGIN} className="loginlink" >Login</a>
+                    <a href="http://localhost:3005/login" className="loginlink" >Login</a>
                 </div>
             </div>
         )
